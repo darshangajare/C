@@ -1,0 +1,39 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Screen Record Pro",
+    "short_name": "Screen Record Pro",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://recorder.jcompsolu.com/",
+    "background_color": "#000000",
+    "theme_color": "transparent",
+    "description": "A PWA that allows you to record your screen including video & audio and save the file to your desktop. Perfect for client instruction videos and presentations.",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "share_target": {
+      "action": "/share-target/",
+      "method": "GET",
+      "params": {
+        "title": "title",
+        "text": "text",
+        "url": "url"
+      }
+    },
+    "icons": [
+        {
+            "src": "/logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/logo-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "url": "https://recorder.jcompsolu.com",
+    "screenshots": [],
+    "categories": ["business", "utility", "entertainment"]
+}
